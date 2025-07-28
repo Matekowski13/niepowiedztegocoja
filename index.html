@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nie Wymień Tego Co Ja - Edycja Piłkarska</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>Nie wymień tego co ja!</h1>
+        <p class="subtitle">Edycja dla zaawansowanych fanów piłki nożnej</p>
+        
+        <div id="question-area">
+            <h2 id="question-text">Wciśnij "Start", aby rozpocząć grę!</h2>
+            <div id="answer-area" class="hidden">
+                <p>Moja odpowiedź to...</p>
+                <h3 id="answer-text"></h3>
+                <p class="result-message">Jeśli powiedziałeś to samo - przegrywasz rundę!</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="main-button">Start</button>
+        </div>
+
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+        <p id="progress-text">Pytanie 0 / 5</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
